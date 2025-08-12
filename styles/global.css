@@ -26,11 +26,20 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
+  font: var(--text);
+  color: var(--text-secondary);
+  overflow: hidden;
+}
+
+h1,
+h2 {
+  color: var(--text-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

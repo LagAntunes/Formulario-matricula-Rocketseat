@@ -17,5 +17,94 @@
 
     <title>Formulário de Matrícula - Estrelas do amanhã</title>
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <main>
+        <div class="main-container">
+          <div class="back">
+            <img
+              src="assets/icons/arrow-left-02.svg"
+              alt="Ícone de voltar"
+            /><span>Voltar</span>
+          </div>
+
+          <h1>Formulário de Matrícula</h1>
+
+          <p>
+            Preencha os dados abaixo para matricular seu filho na escola de
+            educação infantil Estrelas do Amanhã.
+          </p>
+
+          <form method="post" enctype="multipart/form-data">
+            <fieldset class="child-info">
+              <legend>Informações da criança</legend>
+
+              <div class="input-wrapper">
+                <label for="fullname">Nome completo</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="Qual é o nome completo da criança?"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="birth">Data de nascimento</label>
+                <input type="date" id="birth" name="birth" length="pt-br" />
+              </div>
+
+              <div class="select-wrapper">
+                <label for="gender">Sexo</label>
+                <select name="gender" id="gender">
+                  <option value="" disabled selected>Selecione o sexo</option>
+                  <option value="male">Masculino</option>
+                  <option value="female">Feminino</option>
+                  <option value="none">Prefiro não dizer</option>
+                </select>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informações médicas</label>
+                <textarea
+                  name="medical-info"
+                  id="medical-info"
+                  placeholder="A criança possui alguma condição médica? (Se sim, especifique)"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <div class="droparea-wrapper">
+                <input type="file" name="birth-file" id="birth-file" />
+                <img
+                  src="assets/icons/cloud-upload.svg"
+                  alt="Ícone de upload"
+                />
+                <p>Clique aqui para selecionar os arquivos</p>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </main>
+
+      <aside>
+        <div class="aside-container">
+          <header>
+            <img src="assets/icons/logo.svg" alt="Logo Estrelas do Amanhã" />
+            <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+            <p>
+              Inscreva seu filho em nossa escola e veja-o florescer em um
+              ambiente acolhedor, seguro e estimulante.
+            </p>
+          </header>
+
+          <img
+            src="assets/image/Illustration.svg"
+            alt="Ilustração de uma mulher sentada com crianças"
+          />
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>
