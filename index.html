@@ -158,6 +158,197 @@
                 </div>
               </div>
             </fieldset>
+
+            <fieldset class="guardian">
+              <legend>Informações do responsável</legend>
+
+              <div class="input-wrapper">
+                <label for="guardian">Nome do responsável</label>
+                <input
+                  type="text"
+                  id="guardian"
+                  name="guardian"
+                  placeholder="Nome do responsável?"
+                />
+                <small
+                  >Principal responsável legal e contato de emergência</small
+                >
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone">Telefone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="(00) 00000-0000"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="email@exemplo.com"
+                  required
+                />
+                <div class="error">
+                  <img
+                    src="/assets/icons/alert-circle.svg"
+                    alt="ícone de alerta"
+                  />
+                  <span>Por favor, insira um e-mail válido.</span>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="enroll-option">
+              <legend>Opções de matrícula</legend>
+
+              <div class="input-wrapper">
+                <label>Selecione o turno de estudo</label>
+
+                <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="study-shift"
+                      value="morning"
+                      id="morning"
+                    />
+                    <img
+                      src="/assets/icons/sun-cloud-02.svg"
+                      alt="ícone de Sol com nuvem"
+                    />
+                    <label for="morning">Manhã</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="study-shift"
+                      value="evening"
+                      id="evening"
+                    />
+                    <img src="/assets/icons/sun-02.svg" alt="ícone de Sol" />
+                    <label for="evening">Tarde</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <label
+                  >Em qual esporte você gostaria de inscrever o seu
+                  filho?</label
+                >
+
+                <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="sport"
+                      value="soccer"
+                      id="soccer"
+                    />
+                    <img
+                      src="/assets/icons/football.svg"
+                      alt="ícone de futebol"
+                    />
+                    <label for="soccer">Futebol</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="sport"
+                      value="basketball"
+                      id="basketball"
+                    />
+                    <img
+                      src="/assets/icons/basketball-02.svg"
+                      alt="ícone de basquete"
+                    />
+                    <label for="basketball">Basquete</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="sport"
+                      value="swimming"
+                      id="swimming"
+                    />
+                    <img
+                      src="/assets/icons/swimming.svg"
+                      alt="ícone de natação"
+                    />
+                    <label for="swimming">Natação</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="sport" value="yoga" id="yoga" />
+                    <img src="/assets/icons/yoga-02.svg" alt="ícone de yoga" />
+                    <label for="yoga">Yoga</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="sport"
+                      value="volleyball"
+                      id="volleyball"
+                    />
+                    <img
+                      src="/assets/icons/volleyball.svg"
+                      alt="ícone de vôlei"
+                    />
+                    <label for="volleyball">Vôlei</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="sport"
+                      value="boxing"
+                      id="boxing"
+                    />
+                    <img
+                      src="/assets/icons/boxing-glove-01.svg"
+                      alt="ícone de boxe"
+                    />
+                    <label for="boxing">Boxe</label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="terms-wrapper input-wrapper checkbox-wrapper">
+              <div class="checkbox-image"></div>
+              <input type="checkbox" name="terms" id="terms" />
+              <label for="terms"
+                >Declaro que li e concordo com os
+                <strong>Termos e Condições</strong> e com a
+                <strong>Política de Privacidade</strong> da escola Estrela do
+                Amanhã.</label
+              >
+            </div>
+
+            <div class="actions-wrapper">
+              <button class="btn-secondary" type="button">
+                Salvar respostas
+              </button>
+              <button class="btn-primary" type="submit">Fazer matrícula</button>
+            </div>
           </form>
         </div>
       </main>

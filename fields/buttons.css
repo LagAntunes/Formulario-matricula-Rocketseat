@@ -1,0 +1,32 @@
+button {
+  all: unset;
+  font-weight: 500;
+  color: var(--text-highlight);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--stroke-highlight);
+
+  &.btn-primary {
+    color: white;
+    background-color: var(--stroke-highlight);
+
+    &:hover,
+    &:focus {
+      background-color: var(--text-highlight);
+      border-color: var(--text-highlight);
+    }
+  }
+
+  &.btn-secondary {
+    margin-left: auto;
+
+    &:hover,
+    &:focus {
+      background-color: var(--text-tertiary);
+      color: white;
+      border-color: var(--text-tertiary);
+    }
+  }
+}
