@@ -2,7 +2,7 @@
 
 ![Capa do Projeto](./assets/image/thumb.jpg)
 
-Um formulário de uma escola para crianças. Projeto desenvolvido com **HTML** e **CSS**, como parte de um desafio proposto pela **Rocketseat**, focando na construção formulários e usando suas tags HTML de forma semântica.
+Um formulário de uma escola para crianças. Projeto desenvolvido com **HTML** e **CSS**, como parte de um desafio proposto pela **Rocketseat**, focando na construção de formulários e usando suas tags HTML de forma semântica.
 
 ## 🧾 Sobre o projeto
 
